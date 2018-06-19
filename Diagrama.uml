@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.prosports.prof1.Controladores.ControladorProductos</OriginalElement>
+  <nodes>
+    <node x="1008.5" y="268.0">com.prosports.prof1.Reportes.ReporteCorreo</node>
+    <node x="320.5" y="268.5">com.prosports.prof1.Views.ExcelView</node>
+    <node x="12.097727272727298" y="392.0">com.prosports.prof1.Controladores.ControladorProductos</node>
+    <node x="238.5" y="189.0">com.prosports.prof1.Repositorios.ProductosRepo</node>
+    <node x="115.58636363636361" y="0.0">com.prosports.prof1.Entidades.Merchandising</node>
+    <node x="10.5" y="268.0">com.prosports.prof1.Reportes.ReporteExcel</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.prosports.prof1.Reportes.ReporteCorreo" target="com.prosports.prof1.Repositorios.ProductosRepo">
+      <point x="-65.5" y="-37.0" />
+      <point x="1074.0" y="243.0" />
+      <point x="357.66666666666663" y="243.0" />
+      <point x="47.66666666666663" y="14.5" />
+    </edge>
+    <edge source="com.prosports.prof1.Controladores.ControladorProductos" target="com.prosports.prof1.Repositorios.ProductosRepo">
+      <point x="0.0" y="-70.0" />
+      <point x="314.0977272727273" y="372.0" />
+      <point x="310.0" y="372.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="com.prosports.prof1.Controladores.ControladorProductos" target="com.prosports.prof1.Entidades.Merchandising">
+      <point x="-241.60000000000002" y="-70.0" />
+      <point x="72.49772727272727" y="372.0" />
+      <point x="0.0" y="372.0" />
+      <point x="0.0" y="159.0" />
+      <point x="136.08636363636361" y="159.0" />
+      <point x="-61.5" y="69.5" />
+    </edge>
+    <edge source="com.prosports.prof1.Controladores.ControladorProductos" target="com.prosports.prof1.Reportes.ReporteExcel">
+      <point x="-120.80000000000001" y="-70.0" />
+      <point x="193.2977272727273" y="372.0" />
+      <point x="155.0" y="372.0" />
+      <point x="0.0" y="37.0" />
+    </edge>
+    <edge source="com.prosports.prof1.Controladores.ControladorProductos" target="com.prosports.prof1.Reportes.ReporteCorreo">
+      <point x="241.60000000000002" y="-70.0" />
+      <point x="555.6977272727273" y="372.0" />
+      <point x="1139.5" y="372.0" />
+      <point x="0.0" y="37.0" />
+    </edge>
+    <edge source="com.prosports.prof1.Reportes.ReporteExcel" target="com.prosports.prof1.Repositorios.ProductosRepo">
+      <point x="72.25" y="-37.0" />
+      <point x="227.25" y="243.0" />
+      <point x="262.33333333333337" y="243.0" />
+      <point x="-47.66666666666666" y="14.5" />
+    </edge>
+    <edge source="com.prosports.prof1.Reportes.ReporteExcel" target="com.prosports.prof1.Entidades.Merchandising">
+      <point x="-72.25" y="-37.0" />
+      <point x="82.75" y="169.0" />
+      <point x="177.08636363636361" y="169.0" />
+      <point x="-20.5" y="69.5" />
+    </edge>
+    <edge source="com.prosports.prof1.Reportes.ReporteCorreo" target="com.prosports.prof1.Entidades.Merchandising">
+      <point x="65.5" y="-37.0" />
+      <point x="1205.0" y="159.0" />
+      <point x="259.0863636363636" y="159.0" />
+      <point x="61.5" y="69.5" />
+    </edge>
+    <edge source="com.prosports.prof1.Repositorios.ProductosRepo" target="com.prosports.prof1.Entidades.Merchandising">
+      <point x="0.0" y="-14.5" />
+      <point x="310.0" y="169.0" />
+      <point x="218.08636363636361" y="169.0" />
+      <point x="20.5" y="69.5" />
+    </edge>
+    <edge source="com.prosports.prof1.Controladores.ControladorProductos" target="com.prosports.prof1.Views.ExcelView">
+      <point x="120.79999999999995" y="-70.0" />
+      <point x="434.89772727272725" y="362.0" />
+      <point x="654.5" y="362.0" />
+      <point x="0.0" y="36.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.9381679389312977" x="645.0" y="266.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>protected</VISIBILITY>
+</Diagram>
+
