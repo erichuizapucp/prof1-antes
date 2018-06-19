@@ -1,0 +1,14 @@
+<table>
+    <thead>
+        <th>Nombre</th>
+        <th>Descripcion</th>
+        <th>Precio</th>
+    </thead>
+    #foreach($producto in $productos)
+        <tr>
+            <td>$producto.nombre</td>
+            <td>$producto.descripcion</td>
+            <td>S/ $producto.precio</td>
+        </tr>
+    #end
+</table>
